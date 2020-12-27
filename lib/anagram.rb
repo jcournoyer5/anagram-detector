@@ -1,5 +1,6 @@
 # Your code goes here!
 class Anagram
+    attr_accessor :diaper, :ba, :listen
     
     def Anagram=(simple_anagram) 
     @anagram = simple_anagram
