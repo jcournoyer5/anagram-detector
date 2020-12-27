@@ -7,9 +7,10 @@ class Anagram
    
     end
     
-    def match
+    def match(words)
      
     end
+    
 end
 
 
