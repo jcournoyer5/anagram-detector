@@ -7,8 +7,6 @@ class Anagram
    
     end
    
-    Anagram.new('diaper')
-   
 end
 
 
