@@ -5,7 +5,10 @@ class Anagram
     def initialize(diaper)
         @diaper = diaper
         diaper.match
-        puts nil
+        
+        def diaper
+            @diaper
+        end
     end
     
     def Anagram=(simple_anagram) 
