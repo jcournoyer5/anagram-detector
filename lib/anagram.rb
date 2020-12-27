@@ -17,7 +17,7 @@ class Anagram
         ["ab"]
     end    
     
-    def allergy(word)
+    def match(allergy)
         ["gallery", "regally", "largely"]
     end    
     
