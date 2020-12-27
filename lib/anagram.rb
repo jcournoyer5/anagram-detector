@@ -16,8 +16,6 @@ class Anagram
     
    anagram = diaper.match
    puts anagram
-
-
    
     end
 end
