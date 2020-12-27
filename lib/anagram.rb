@@ -6,6 +6,9 @@ class Anagram
         @word = word
    
     end
+    
+    def word
+    end    
    
 end
 
