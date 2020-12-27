@@ -7,8 +7,8 @@ class Anagram
    
     end
     
-    def word
-        @word
+    def match
+
     end    
    
 end
