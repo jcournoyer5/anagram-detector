@@ -2,6 +2,10 @@
 class Anagram
     attr_accessor :diaper, :ba, :listen
     
+    def initialize(diaper)
+        @diaper = diaper
+    end
+    
     def Anagram=(simple_anagram) 
     @anagram = simple_anagram
    
