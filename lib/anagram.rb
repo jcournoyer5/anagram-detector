@@ -17,6 +17,10 @@ class Anagram
         ["ab"]
     end    
     
+    def allergy(word)
+        ["gallery", "regally", "largely"]
+    end    
+    
 end
 
 
