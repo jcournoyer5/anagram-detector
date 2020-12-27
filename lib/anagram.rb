@@ -13,6 +13,11 @@ class Anagram
     
     def Anagram=(simple_anagram) 
     @anagram = simple_anagram
+    
+   anagram = diaper.match
+   puts anagram
+
+
    
     end
 end
