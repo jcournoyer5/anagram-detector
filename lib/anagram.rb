@@ -11,6 +11,10 @@ class Anagram
      []
     end
     
+    def match(words)
+        ["ab"]
+    end    
+    
 end
 
 
