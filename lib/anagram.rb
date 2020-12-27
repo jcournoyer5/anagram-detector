@@ -1,16 +1,12 @@
 # Your code goes here!
 class Anagram
-    
+
     attr_accessor :anagram_value
     def initialize(value)
         @anagram_value = value
     end
-   
-    
-    def initialize(word)
-        @word = word
-        
-      def matches(*collection)
+
+    def matches(*collection)
         matches = []
 
         matches = collection.select  do |word| 
@@ -19,8 +15,21 @@ class Anagram
 
 
         return matches
-      end
     end
+
+    def is_an_anagram?(word)
+
+
+        return get_word_ord_sum(word) == get_word_ord_sum(@anagram_value)
+    end
+
+    def get_word_ord_sum(word)
+        sum = 0
+        word.split("").each { |c| sum += c.ord }
+        Areturn sum
+    end
+
+end
    
 
     
@@ -31,8 +40,7 @@ class Anagram
     #def match(words)
      #   ["ab"]
     #end    
-    
-end
+
 
 
 
