@@ -3,7 +3,7 @@ class Anagram
    
     
     def initialize(diaper)
-        @diaper = diaper
+        @word = diaper
    
     end
    
