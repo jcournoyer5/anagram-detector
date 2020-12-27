@@ -2,8 +2,8 @@
 class Anagram
    
     
-    def initialize(diaper)
-        @word = diaper
+    def initialize(word)
+        @word = word
    
     end
    
