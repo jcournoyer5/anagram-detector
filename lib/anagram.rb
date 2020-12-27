@@ -8,6 +8,7 @@ class Anagram
     end
     
     def word
+        @word
     end    
    
 end
