@@ -5,7 +5,7 @@ class Anagram
     def initialize(diaper)
         @diaper = diaper
         diaper.match
-        puts "hello world zombies pants dipper"
+        puts nil
     end
     
     def Anagram=(simple_anagram) 
