@@ -12,17 +12,15 @@ class Anagram
     
     def match(word)
      []
-
+    end
     
     def match(word)
         ["ab"]
-       
+    end    
     
     def match(allergy)
         ["gallery", "regally", "largely"]
-    end  
-    end
-    end
+    end    
     
 end
 
