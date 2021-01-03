@@ -15,8 +15,13 @@ class Anagram
     
     def match(array)
      []
-    array.select {|anna|} 
-    anna.split("").sort
+        array.select do  |anna| 
+            binding.pry
+            anna.split("").sort
+        end 
+    
+    
+#[1,2,3,4,5,6].select { |n| n.even? }
 
      #binding.pry
     end
