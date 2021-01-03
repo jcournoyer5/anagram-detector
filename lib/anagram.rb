@@ -1,26 +1,30 @@
 # Your code goes here!
+
+require 'pry'
+
 class Anagram
     
-    attr_accessor :word
+    attr_accessor :array
    
     
-    def initialize(word)
-        @word = word
+    def initialize(array)
+        @array = array
     
    
     end
     
-    def match(word)
+    def match(array)
      []
+     binding.pry
     end
     
-    def match(word)
-        ["ab"]
-    end    
+   # def match(word)
+      #  ["ab"]
+  #  end    
     
-    def match(allergy)
-        ["gallery", "regally", "largely"]
-    end    
+   # def match(allergy)
+      #  ["gallery", "regally", "largely"]
+  #  end    
     
 end
 
