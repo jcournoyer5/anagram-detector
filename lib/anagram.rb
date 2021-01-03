@@ -15,8 +15,8 @@ class Anagram
     
     def match(array)
      []
-    array.select { |anna|} 
-    anna.split("").sort 
+    array.select {|anna.split("").sort |} 
+
      #binding.pry
     end
     
