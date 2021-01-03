@@ -6,20 +6,23 @@ class Anagram
     
     def initialize(word)
         @word = word
+        @allergy = allergy
    
     end
     
     def match(word)
      []
-    end
+
     
     def match(word)
         ["ab"]
-    end    
+       
     
     def match(allergy)
         ["gallery", "regally", "largely"]
-    end    
+    end  
+    end
+    end
     
 end
 
