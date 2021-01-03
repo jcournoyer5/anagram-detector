@@ -1,6 +1,6 @@
 # Your code goes here!
 
-require 'pry'
+#require 'pry'
 
 class Anagram
     
@@ -16,7 +16,7 @@ class Anagram
     def match(array)
      []
         array.select do  |anna| 
-            binding.pry
+           # binding.pry
             anna.split("").sort == @word.split("").sort
         end 
     
